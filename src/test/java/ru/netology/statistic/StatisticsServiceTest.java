@@ -1,7 +1,6 @@
 package ru.netology.statistic;
 
 import org.junit.jupiter.api.Test;
-import ru.netology.statistic.statistic.StatisticsService;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -18,6 +17,7 @@ class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMin() {
         StatisticsService service = new StatisticsService();
